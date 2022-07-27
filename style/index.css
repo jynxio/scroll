@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section > h1 {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-size: 10vmin;
+    font-weight: bold;
+}
