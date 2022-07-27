@@ -53,7 +53,7 @@ scene.add(camera_group);
 /* Mesh */
 // Texture
 const loader = new three.TextureLoader();
-const texture = loader.load( "/static/texture/gradient/3.jpg" );
+const texture = loader.load( "/static/3.jpg" );
 texture.minFilter = three.NearestFilter;
 texture.magFilter = three.NearestFilter;
 
