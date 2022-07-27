@@ -6,6 +6,8 @@ import * as three from "three";
 
 import gsap from "gsap";
 
+import texture_url from "/static/3.jpg";
+
 /* ------------------------------------------------------------------------------------------------------ */
 /* Html */
 const canvas = document.createElement( "canvas" );
@@ -53,7 +55,7 @@ scene.add(camera_group);
 /* Mesh */
 // Texture
 const loader = new three.TextureLoader();
-const texture = loader.load( "/static/3.jpg" );
+const texture = loader.load( texture_url );
 texture.minFilter = three.NearestFilter;
 texture.magFilter = three.NearestFilter;
 
